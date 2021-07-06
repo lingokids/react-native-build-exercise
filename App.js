@@ -7,46 +7,46 @@
  */
 
 import React from 'react';
-import type { Node } from 'react';
-import {
-  Image,
-  SafeAreaView,
-  ScrollView,
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
+import type {Node} from 'react';
+import {Image, ScrollView, StyleSheet, Text} from 'react-native';
 
 const App: () => Node = () => {
   return (
-    <SafeAreaView styles={styles.safeArea}>
-      <ScrollView styles={styles.scrollView}>
-        <View styles={styles.logoHolder}>
-          <Image source={require('./res/img/logo.png')} />
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+    <ScrollView
+      style={styles.scrollViewHolder}
+      contentContainerStyle={styles.scrollView}>
+      <Image style={styles.logo} source={require('./res/img/logo.png')} />
+      <Text style={styles.buildLabel}>{'Build me!'}</Text>
+      <Text style={styles.modeLabel}>{`Mode: ${
+        __DEV__ ? 'Development' : 'Production'
+      } `}</Text>
+    </ScrollView>
   );
 };
 
 const styles = StyleSheet.create({
-  safeArea: {},
+  scrollViewHolder: {
+    width: '100%',
+    height: '100%',
+    backgroundColor: '#4F67FF',
+  },
   scrollView: {
     flex: 1,
-    width: 100,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'red',
-    flexDirection: 'column',
   },
-  logoHolder: {
-    flex: 0.5,
-    width: 300,
-    height: 100,
-    backgroundColor: 'blue',
-    justifyContent: 'center',
-    alignItems: 'center',
-    flexDirection: 'row',
+  logo: {
+    marginVertical: 45,
+  },
+  buildLabel: {
+    paddingVertical: 10,
+    color: '#FFFFFF',
+    fontSize: 16,
+  },
+  modeLabel: {
+    paddingVertical: 10,
+    color: '#FFFFFF',
+    fontSize: 16,
   },
 });
 
