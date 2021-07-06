@@ -32,5 +32,8 @@ As it is, the app displays a simple screen and indicates if it is running in deb
 
 ## Optional requirements
 
+If you have the time and/or want to go the extra mile you can do any imrpovement to the build script that you want, here are some ideas:
+
 - Make it so that the script generates both versions of the app instead of just the one you originally chose.
 - Make it so that the app has a different app icon depending on the type of build being generated (debug or release)
+- Make it so that the app's text strings come from a separate .json file that gets bundled along with the release and that is different for debug and release builds.
