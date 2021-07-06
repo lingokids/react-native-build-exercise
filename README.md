@@ -10,7 +10,7 @@
 
  Taking the provided app codebase contained in this repository, you'll need to write a [Github Actions](https://docs.github.com/en/actions) .yml file that properly generates a build of the app. You can find more info on Action Metadata files [here](https://docs.github.com/en/actions/creating-actions/creating-a-composite-run-steps-action#creating-an-action-metadata-file).
  
- As it is, the app displays a simple screen that indicates if it is running in debug or release mode:
+ As it is, the app displays a simple screen that indicates if it is running in debug (Mode: Development) or release mode (Mode: Production):
 
 <img width=200 src="/res/instructions/dev.png"/> <img width=200 src="/res/instructions/prod.png"/>
 
@@ -34,7 +34,7 @@ From here, you should keep the following in mind:
 
 ## Optional requirements
 
-If you have the time and/or want to go the extra mile you can do any imrpovement to the build script that you want, here are some ideas:
+If you have the time and/or want to go the extra mile you can do any improvement to the build script that you want, here are some ideas:
 
 - Make it so that the script generates both versions of the app instead of just the one you originally chose.
 - Make it so that the app has a different app icon depending on the type of build being generated (debug or release)
