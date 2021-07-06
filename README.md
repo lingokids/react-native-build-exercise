@@ -4,7 +4,7 @@
 
  Welcome to the take-home test for the Mobile Build Engineer position. First of all, thanks for taking your time doing this at all, we really appreciate it. 
 
- The goal of this exercise is for us to evaluate how well would you face a simple but real problem that a mobile build engineer could enounter. This is, we want to set up an automated build pipeline for a React Native app via Github Actions.
+ The goal of this exercise is for us to evaluate how well would you face a simple but real problem that a mobile build engineer could encounter. This is, we want to set up an automated build pipeline for a React Native app via Github Actions.
 
 ## Instructions
 
