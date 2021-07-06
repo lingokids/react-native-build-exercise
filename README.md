@@ -29,7 +29,7 @@ As it is, the app displays a simple screen and indicates if it is running in deb
 
 <img src="/res/instructions/release_mode.png"/>
 
-## Optional requirements
+## Optional requirements
 
 - Make it so that the script generates both versions of the app instead of just the one you originally chose.
 - Make it so that the app has a different app icon depending on the type of build being generated (debug or release)
