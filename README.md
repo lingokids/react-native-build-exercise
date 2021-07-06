@@ -9,6 +9,12 @@
 ## Instructions
 
  Taking the provided app codebase contained in this repository, you'll need to write a [Github Actions](https://docs.github.com/en/actions) .yml file that properly generates a build of the app. You can find more info on Action Metadata files [here](https://docs.github.com/en/actions/creating-actions/creating-a-composite-run-steps-action#creating-an-action-metadata-file).
+ 
+ As it is, the app displays a simple screen that indicates if it is running in debug or release mode:
+
+<img width=200 src="/res/instructions/dev.png"/> <img width=200 src="/res/instructions/prod.png"/>
+
+From here, you should keep the following in mind:
 
 - There is no time limit so take as much as you want, but we estimate that this should take you at most around a few hours to get right.
 - First of all, fork this repository on your own Github account and make it public. Then start working from there.
@@ -17,10 +23,6 @@
 - We are not going to run this pipeline ourselves, we will review it with you over the exercise review interview, so you will be able to show it and explain it.
 - You should be able to set this up with a free Github account as long as the repository is public. Github Actions provides [their own runners](https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners) so we advise you to use them.
 - If you don't get it to work we still encourage you to deliver something. We can talk about what happened during the interview. Don't stress too much about it :)
-
-As it is, the app displays a simple screen and indicates if it is running in debug or release mode:
-
-<img width=200 src="/res/instructions/dev.png"/> <img width=200 src="/res/instructions/prod.png"/>
 
 ## Requirements
 
