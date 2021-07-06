@@ -19,7 +19,7 @@
 
 As it is, the app displays a simple screen and indicates if it is running in debug or release mode:
 
-<img src="/res/instructions/dev.png"/> <img src="/res/instructions/dev.png"/>
+<img width=200 src="/res/instructions/dev.png"/> <img width=200 src="/res/instructions/prod.png"/>
 
 ## Requirements
 
