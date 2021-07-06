@@ -1,25 +1,22 @@
 /**
- * Sample React Native App
- * https://github.com/facebook/react-native
+ * React Native Build Exercise
  *
- * @format
- * @flow strict-local
+ * Lingokids - 2021
  */
 
 import React from 'react';
-import type {Node} from 'react';
 import {Image, ScrollView, StyleSheet, Text} from 'react-native';
 
-const App: () => Node = () => {
+const App = () => {
   return (
     <ScrollView
       style={styles.scrollViewHolder}
       contentContainerStyle={styles.scrollView}>
       <Image style={styles.logo} source={require('./res/img/logo.png')} />
       <Text style={styles.buildLabel}>{'Build me!'}</Text>
-      <Text style={styles.modeLabel}>{`Mode: ${
-        __DEV__ ? 'Development' : 'Production'
-      } `}</Text>
+      <Text style={styles.modeLabel}>
+        {`Mode: ${__DEV__ ? 'Development' : 'Production'} `}
+      </Text>
     </ScrollView>
   );
 };
