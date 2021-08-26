@@ -39,3 +39,7 @@ If you have the time and/or want to go the extra mile you can do any improvement
 - Make it so that the script generates both versions of the app instead of just the one you originally chose.
 - Make it so that the app has a different app icon depending on the type of build being generated (debug or release)
 - Make it so that the app's text strings come from a separate .json file that gets bundled along with the release and that is different for debug and release builds.
+
+## Legal notes
+
+All the results obtained from this exercise will be used for recruitment purposes. The company is not authorised to use it, and you own the copyright of this code. Please, remember that this document and its information are confidential and won’t be reproduced or circulated.
